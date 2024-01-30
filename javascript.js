@@ -7,8 +7,7 @@ function Button(){
     let valueSecondDate = Date.parse(secondDate);
     
     
-    let dif = Math.round(Math.abs((valueFirstDate - valueSecondDate) / oneDay));
-    console.log(dif);
-    //document.getElementById('resultado').innerHTML = dif + " Dias";
+    let result = Math.round(Math.abs((valueFirstDate - valueSecondDate) / oneDay));
+    document.getElementById('resultado').innerHTML = result + " Dias";
 
 }
